@@ -35,6 +35,7 @@ public class EjemploArrancables {
 		arrancables.add(new Ordenador());
 		arrancables.add(persona);
 		arrancables.add((Moto) DatosPrueba.flota[1]);
+		arrancables.remove(DatosPrueba.flota[0]);
 		
 		System.out.println(arrancables);
 		arrancarTodo(arrancables);
