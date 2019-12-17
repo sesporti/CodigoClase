@@ -3,46 +3,65 @@ package es.mdef.acing;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
-import java.util.Comparator;
+import java.util.Iterator;
 import java.util.List;
 
 public class AppDescargas {
 
 	public static void main(String[] args) {
 		
-		Collection<Descargable> misDescargas = new ArrayList<Descargable>(); 
+		List<Descargable> misDescargas = new ArrayList<Descargable>(); 
 		Contenido cancion1 = new Contenido(new Identificador(1), "thunder");
 		Contenido pelicula1 = new Contenido(new Identificador(2), "La chaqueta metálica");
 		
 		
 		misDescargas.add(new DescargableImpl(12.5, cancion1));
 		misDescargas.add(new DescargableImpl(278.0, pelicula1));
-		misDescargas.add(new DescargableImpl(128.5, pelicula1));
-		misDescargas.add(new DescargableImpl(12.5, cancion1));
+		misDescargas.add(new DescargableImpl(728.5, pelicula1));
+		misDescargas.add(new DescargableImpl(null, cancion1));
 		
-		ordenarListaDescarga(misDescargas);
+		//ordenarListaDescarga(misDescargas);
+		//misDescargas.sort(Descargable.COMPARADOR_POR_TAMANO);
+		misDescargas.forEach(System.out::println);
 		
 		
-		
+		System.out.println("El total de megas es: " + calcularTamanoDescarga(misDescargas));
 		
 	}
-	protected static void ordenarListaDescarga (Collection<Descargable> listaDescargable) {
-		List<Descargable> nuevaList = new ArrayList<>(listaDescargable);
-		Comparator<Descargable> comparador = new Comparator<Descargable>() {
-
-			@Override
-			public int compare(Descargable o1, Descargable o2) {
-				
-				return o1.getContenido().getId().getValor();
+	
+	protected static void ordenarListaDescarga (List<Descargable> listaDescargable) {
+		Collections.sort(listaDescargable, Descargable.COMPARADOR);
+	}
+		
+	/**Calcula el tamaño total de megas para las descargas en el parámetro
+	 * listaDescargable
+	 * @param listaDescargable Colección de descargas
+	 * @return Tamaño total en megas
+	 * @throws Exception si tamaño descarga es null
+	 */
+	protected static double calcularTamanoDescarga(Collection<Descargable> listaDescargable) {//throws Exception {
+		double totalMegas = 0;
+		for (Descargable descargable : listaDescargable) {
+			Double tamanoDescarga = descargable.getTamanoMegas();
+			if (tamanoDescarga == null) {
+				System.err.println(descargable);//throw new Exception("Hay una descarga con tamaño null");
+			} else {
+				totalMegas += tamanoDescarga;
 			}
-		};
-		Collections.sort(nuevaList, comparador);
+			
+		}
+		return totalMegas;
 	}
-		
-		
-	
-	
-//	- calcularTamanoDescarga (ArrayList<Descargable>): Double
-//	- calcularTiempoDescarga (Double, Conexion) : Double
+	/** Es lo mismo que llamar a tamano/conexion.getVelocidad()
+	 * @param tamano se debe pasar en megas
+	 * @param conexion se debe pasar en megas/segundos
+	 * @return devuelve segundos
+	 */
+	private static double calcularTiempoDescarga(double tamano, Conexion conexion) {
+		return tamano/conexion.getVelocidad();
+	}
+	protected static double calcularTiempoDescarga(Collection<Descargable> descargables, Conexion conexion) {
+		return calcularTiempoDescarga(calcularTamanoDescarga(descargables), conexion);
+	}
 
 }

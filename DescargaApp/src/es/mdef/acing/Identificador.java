@@ -11,5 +11,9 @@ public class Identificador {
 		return identificador;
 	}
 	
+	@Override
+	public String toString() {
+		return getValor() + "";
+	}
 	
 }

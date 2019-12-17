@@ -27,5 +27,9 @@ public class Contenido {
 		this.titulo = titulo;
 	}
 	
+	@Override
+	public String toString() {
+		return "(" + getId() + ") " + getTitulo();
+	}
 
 }

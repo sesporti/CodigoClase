@@ -20,5 +20,9 @@ public class DescargableImpl implements Descargable {
 		this.contenido = contenido;
 	}
 	
+	@Override
+	public String toString() {
+		return getContenido() + " - " + getTamanoMegas() + " MB";
+	}
 	
 }
