@@ -25,8 +25,15 @@ public class AppDescargas {
 		misDescargas.forEach(System.out::println);
 		
 		
-		System.out.println("El total de megas es: " + calcularTamanoDescarga(misDescargas));
-		
+		//System.out.println("El total de megas es: " + calcularTamanoDescarga(misDescargas));
+		System.out.println("El tiempo para la descarga es: "
+		+ calcularTiempoDescarga(misDescargas, new Conexion() {
+			@Override
+			public Double getVelocidad() { return 3.5; }
+			
+			@Override
+			public String getNombreConexion() { return "Mi conexión"; }
+		}));
 	}
 	
 	protected static void ordenarListaDescarga (List<Descargable> listaDescargable) {
@@ -37,14 +44,14 @@ public class AppDescargas {
 	 * listaDescargable
 	 * @param listaDescargable Colección de descargas
 	 * @return Tamaño total en megas
-	 * @throws Exception si tamaño descarga es null
+	 * @throws Exception si el tamaño de al menos una descarga es null
 	 */
-	protected static double calcularTamanoDescarga(Collection<Descargable> listaDescargable) {//throws Exception {
+	protected static double calcularTamanoDescarga(Collection<Descargable> listaDescargable) throws Exception {
 		double totalMegas = 0;
 		for (Descargable descargable : listaDescargable) {
 			Double tamanoDescarga = descargable.getTamanoMegas();
 			if (tamanoDescarga == null) {
-				System.err.println(descargable);//throw new Exception("Hay una descarga con tamaño null");
+				throw new Exception("Hay una descarga con tamaño null");
 			} else {
 				totalMegas += tamanoDescarga;
 			}
@@ -61,7 +68,15 @@ public class AppDescargas {
 		return tamano/conexion.getVelocidad();
 	}
 	protected static double calcularTiempoDescarga(Collection<Descargable> descargables, Conexion conexion) {
-		return calcularTiempoDescarga(calcularTamanoDescarga(descargables), conexion);
+		double tiempoTotal;
+		try {
+			tiempoTotal = calcularTiempoDescarga(calcularTamanoDescarga(descargables), conexion);
+		} catch (Exception e) {
+			tiempoTotal = -1;
+			System.out.println(e.getMessage());
+			e.printStackTrace();
+		}
+		return tiempoTotal;
 	}
 
 }

@@ -10,9 +10,6 @@ import java.util.Comparator;
  */
 public interface Descargable extends Comparable<Descargable> {
 
-	/**
-	 * 
-	 */
 	Comparator<Descargable> COMPARADOR = new Comparator<Descargable>() {
 
 		@Override
