@@ -1,6 +1,6 @@
 package es.mdef.acing;
 
-public class Musica extends Contenido {
+public class Musica extends ContenidoImpl {
 	
 	private Autor autor;
 	

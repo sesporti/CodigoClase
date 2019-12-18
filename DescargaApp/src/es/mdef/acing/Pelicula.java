@@ -1,6 +1,6 @@
 package es.mdef.acing;
 
-public class Pelicula extends Contenido {
+public class Pelicula extends ContenidoImpl {
    private Director director;
    private Actor[] actoresPrincipales;
 

@@ -1,33 +1,27 @@
 package com.other.library;
 
-import es.mdef.acing.Contenido;
-import es.mdef.acing.Identificador;
-
-public class Book extends Contenido {
-//	String isbn;
-	//String title;
+public class Book extends AnotherClass {
+	String isbn;
+	String title;
 	String genre;
 	
 	public String getIsbn() {
-		return getId().getValor();// isbn;
+		return isbn;
 	}
 	
 	public String getTitle() {
-		return getTitulo();//title;
+		return title;
 	}
 	
 	public String getGenre() {
 		return genre;
 	}
 
-	public Book(String isbn, String title) {
-		this(new Identificador<String>(isbn), title);
+	public Book(String isbn, String title, String genre) {
+		super();
+		this.isbn = isbn;
+		this.title = title;
+		this.genre = genre;
 	}
-
-	public Book(Identificador<String> identificador, String title) {
-		super(identificador, title);
-//		this.isbn = identificador.getValor();
-	}
-	
 	
 }

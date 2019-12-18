@@ -1,25 +1,17 @@
 package es.mdef.acing;
 
-public class Contenido {
-	private Identificador<String> id;
-	private String titulo;
+public interface Contenido {
+
+	Identificador<String> getId();
+
+	String getTitulo();
 	
-	public Identificador<String> getId() {
-		return id;
-	}
-	
-	public String getTitulo() {
-		return titulo;
-	}
-	
-	public Contenido (Identificador<String> id, String titulo) {
-		this.id = id;
-		this.titulo = titulo;
-	}
-	
-	@Override
-	public String toString() {
+	default String string() {
 		return "(" + getId() + ") " + getTitulo();
+	}
+	
+	static String pasarAString(Contenido c) {
+		return "(" + c.getId() + ") " + c.getTitulo();
 	}
 
 }

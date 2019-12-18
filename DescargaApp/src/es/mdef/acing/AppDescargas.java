@@ -6,28 +6,35 @@ import java.util.Collections;
 import java.util.List;
 
 import com.other.library.Book;
+import com.other.library.BookManager;
+import com.other.library.LibroBook;
 
 public class AppDescargas {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		
 		List<Descargable> misDescargas = new ArrayList<Descargable>(); 
-		Contenido cancion1 = new Contenido(new Identificador<String>("#1"), "thunder");
-		Contenido pelicula1 = new Contenido(new Identificador<String>("#2"), "La chaqueta metálica");
-		Contenido libro = new Book(new Identificador<String>("53463"), "Don Quijote");
+		Contenido cancion1 = new ContenidoImpl(new Identificador<String>("#1"), "thunder");
+		Contenido pelicula1 = new ContenidoImpl(new Identificador<String>("#2"), "La chaqueta metálica");
+		Book libro = new Book("53463", "Don Quijote", "Classic Novel");
+		Contenido libroContenido = new Libro(libro);
+		
+		LibroBook libroBook = new LibroBook("53463", "Don Quijote", "Classic Novel");
 		
 		misDescargas.add(new DescargableImpl(12.5, cancion1));
 		misDescargas.add(new DescargableImpl(278.0, pelicula1));
 		misDescargas.add(new DescargableImpl(728.5, pelicula1));
 		misDescargas.add(new DescargableImpl(12.5, cancion1));
-		misDescargas.add(new DescargableImpl(10.0, libro));
+		misDescargas.add(new DescargableImpl(10.0, libroBook));
+		
+		libroBook.setGenero("Novela Clásica");
 		
 		ordenarListaDescarga(misDescargas);
 		//misDescargas.sort(Descargable.COMPARADOR_POR_TAMANO);
 		misDescargas.forEach(System.out::println);
 		
 		
-		//System.out.println("El total de megas es: " + calcularTamanoDescarga(misDescargas));
+		System.out.println("El total de megas es: " + calcularTamanoDescarga(misDescargas));
 		System.out.println("El tiempo para la descarga es: "
 		+ calcularTiempoDescarga(misDescargas, new Conexion() {
 			@Override
@@ -45,6 +52,7 @@ public class AppDescargas {
 			new Identificador<Descargable>(misDescargas.get(0))
 		};
 		
+		BookManager.miExternalMethod(libroBook);
 	}
 	
 	protected static void ordenarListaDescarga (List<Descargable> listaDescargable) {
