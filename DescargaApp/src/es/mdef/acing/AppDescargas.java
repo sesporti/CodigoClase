@@ -1,6 +1,7 @@
 package es.mdef.acing;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
@@ -20,6 +21,14 @@ public class AppDescargas {
 		Contenido libroContenido = new Libro(libro);
 		
 		LibroBook libroBook = new LibroBook("53463", "Don Quijote", "Classic Novel");
+		
+		Fichero fichero1 = new Fichero(23.6, cancion1);
+		Descargable fichero2 = new Fichero(346.8, pelicula1);
+		ConRuta fichero3 = new Fichero(6.8, libroBook);
+		fichero1.setRuta("ruta1.mp3");
+		((Fichero) fichero2).setRuta("ruta2.avi");
+		((Fichero) fichero3).setRuta("ruta3.pdf");
+		OtraImplementacion fichero4 = new OtraImplementacion();
 		
 		misDescargas.add(new DescargableImpl(12.5, cancion1));
 		misDescargas.add(new DescargableImpl(278.0, pelicula1));
@@ -52,7 +61,10 @@ public class AppDescargas {
 			new Identificador<Descargable>(misDescargas.get(0))
 		};
 		
-		BookManager.miExternalMethod(libroBook);
+//		BookManager.miExternalMethod(libroBook);
+		
+		System.out.println("IMPRIMO LOS FICHEROS");
+		imprimirFicheros(fichero1, fichero4, (Fichero)fichero2, (Fichero)fichero3);
 	}
 	
 	protected static void ordenarListaDescarga (List<Descargable> listaDescargable) {
@@ -98,4 +110,10 @@ public class AppDescargas {
 		return tiempoTotal;
 	}
 
+	private static <T extends Descargable & ConRuta> void imprimirFicheros(T... ficheros) {
+		for (T f : ficheros) {
+			System.out.println(f.getContenido() + " => " + f.getRuta());
+		}
+	}
+	
 }
