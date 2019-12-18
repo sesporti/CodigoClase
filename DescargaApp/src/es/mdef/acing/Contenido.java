@@ -1,28 +1,18 @@
 package es.mdef.acing;
 
 public class Contenido {
-	private Identificador id;
+	private Identificador<String> id;
 	private String titulo;
 	
-	public Identificador getId() {
+	public Identificador<String> getId() {
 		return id;
 	}
-	
-	//	private void setId(Identificador id) {
-//		this.id = id;
-//	}
 	
 	public String getTitulo() {
 		return titulo;
 	}
-
-//	private void setTitulo(String titulo) {
-//		this.titulo = titulo;
-//	}
-//
-
-
-	public Contenido (Identificador id, String titulo) {
+	
+	public Contenido (Identificador<String> id, String titulo) {
 		this.id = id;
 		this.titulo = titulo;
 	}

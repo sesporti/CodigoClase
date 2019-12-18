@@ -14,9 +14,8 @@ public interface Descargable extends Comparable<Descargable> {
 
 		@Override
 		public int compare(Descargable o1, Descargable o2) {
-			int valorComparacion = 
-					Integer.compare(o1.getContenido().getId().getValor(),
-									o2.getContenido().getId().getValor());
+			int valorComparacion = o1.getContenido().getId().compareTo(
+									o2.getContenido().getId());
 			
 			if(valorComparacion == 0) {
 				valorComparacion = -COMPARADOR_POR_TAMANO.compare(o1, o2);

@@ -3,24 +3,26 @@ package es.mdef.acing;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
-import java.util.Iterator;
 import java.util.List;
+
+import com.other.library.Book;
 
 public class AppDescargas {
 
 	public static void main(String[] args) {
 		
 		List<Descargable> misDescargas = new ArrayList<Descargable>(); 
-		Contenido cancion1 = new Contenido(new Identificador(1), "thunder");
-		Contenido pelicula1 = new Contenido(new Identificador(2), "La chaqueta metálica");
-		
+		Contenido cancion1 = new Contenido(new Identificador<String>("#1"), "thunder");
+		Contenido pelicula1 = new Contenido(new Identificador<String>("#2"), "La chaqueta metálica");
+		Contenido libro = new Book(new Identificador<String>("53463"), "Don Quijote");
 		
 		misDescargas.add(new DescargableImpl(12.5, cancion1));
 		misDescargas.add(new DescargableImpl(278.0, pelicula1));
 		misDescargas.add(new DescargableImpl(728.5, pelicula1));
-		misDescargas.add(new DescargableImpl(null, cancion1));
+		misDescargas.add(new DescargableImpl(12.5, cancion1));
+		misDescargas.add(new DescargableImpl(10.0, libro));
 		
-		//ordenarListaDescarga(misDescargas);
+		ordenarListaDescarga(misDescargas);
 		//misDescargas.sort(Descargable.COMPARADOR_POR_TAMANO);
 		misDescargas.forEach(System.out::println);
 		
@@ -34,6 +36,15 @@ public class AppDescargas {
 			@Override
 			public String getNombreConexion() { return "Mi conexión"; }
 		}));
+		
+		
+		
+		Identificador<?>[] identificadores = new Identificador[] {
+			cancion1.getId(),
+			new Identificador<Long>(1L),
+			new Identificador<Descargable>(misDescargas.get(0))
+		};
+		
 	}
 	
 	protected static void ordenarListaDescarga (List<Descargable> listaDescargable) {
