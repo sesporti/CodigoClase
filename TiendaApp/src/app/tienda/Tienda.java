@@ -10,8 +10,6 @@ public class Tienda {
 
 	public static void main(String[] args) {
 		
-		new GeneradorTurnos<String>();
-		
 		Turno.pasaTurno();
 		// System.out.println(Turno.);
 		Turno miTurno = Turno.cogerTurno();
