@@ -3,12 +3,15 @@ package app.tienda;
 import java.util.Arrays;
 import java.util.Objects;
 
+import app.tienda.turno.GeneradorTurnos;
 import app.tienda.turno.Turno;
 
 public class Tienda {
 
 	public static void main(String[] args) {
-
+		
+		new GeneradorTurnos<String>();
+		
 		Turno.pasaTurno();
 		// System.out.println(Turno.);
 		Turno miTurno = Turno.cogerTurno();

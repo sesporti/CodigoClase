@@ -5,6 +5,7 @@ public class Turno<T extends Comparable<T>> {
 	private final T valor;
 
 	public T getValor() {
+		new Turno<String>("");
 		return valor;
 	}
 
