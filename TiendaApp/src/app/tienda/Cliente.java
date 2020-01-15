@@ -1,5 +1,7 @@
 package app.tienda;
 
+import app.tienda.turno.Turno;
+
 public class Cliente {
 	private Turno turno;
 

@@ -3,6 +3,8 @@ package app.tienda;
 import java.util.Arrays;
 import java.util.Objects;
 
+import app.tienda.turno.Turno;
+
 public class Tienda {
 
 	public static void main(String[] args) {

@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import com.other.library.Book;
 import com.other.library.BookManager;
@@ -14,7 +16,7 @@ public class AppDescargas {
 
 	public static void main(String[] args) throws Exception {
 		
-		List<Descargable> misDescargas = new ArrayList<Descargable>(); 
+		Set<Descargable> misDescargas = new HashSet<Descargable>();// new ArrayList<Descargable>(); 
 		Contenido cancion1 = new ContenidoImpl(new Identificador<String>("#1"), "thunder");
 		Contenido pelicula1 = new ContenidoImpl(new Identificador<String>("#2"), "La chaqueta metálica");
 		Book libro = new Book("53463", "Don Quijote", "Classic Novel");
@@ -53,12 +55,10 @@ public class AppDescargas {
 			public String getNombreConexion() { return "Mi conexión"; }
 		}));
 		
-		
-		
 		Identificador<?>[] identificadores = new Identificador[] {
 			cancion1.getId(),
-			new Identificador<Long>(1L),
-			new Identificador<Descargable>(misDescargas.get(0))
+			new Identificador<Long>(1L)//,
+//			new Identificador<Descargable>(misDescargas.get(0))
 		};
 		
 //		BookManager.miExternalMethod(libroBook);
@@ -67,8 +67,9 @@ public class AppDescargas {
 		imprimirFicheros(fichero1, fichero4, (Fichero)fichero2, (Fichero)fichero3);
 	}
 	
-	protected static void ordenarListaDescarga (List<Descargable> listaDescargable) {
-		Collections.sort(listaDescargable, Descargable.COMPARADOR);
+	protected static void ordenarListaDescarga (Collection<Descargable> listaDescargable) {
+		List<Descargable> listaParaOrdenar = new ArrayList<Descargable>(listaDescargable);
+		Collections.sort(listaParaOrdenar, Descargable.COMPARADOR);
 	}
 		
 	/**Calcula el tamaño total de megas para las descargas en el parámetro
