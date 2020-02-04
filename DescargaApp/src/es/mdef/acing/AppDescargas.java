@@ -41,6 +41,7 @@ public class AppDescargas {
 		libroBook.setGenero("Novela Clásica");
 		
 		ordenarListaDescarga(misDescargas);
+		ordenarListaDescarga(new ArrayList<DescargableImpl>());
 		//misDescargas.sort(Descargable.COMPARADOR_POR_TAMANO);
 		misDescargas.forEach(System.out::println);
 		
@@ -67,7 +68,7 @@ public class AppDescargas {
 		imprimirFicheros(fichero1, fichero4, (Fichero)fichero2, (Fichero)fichero3);
 	}
 	
-	protected static void ordenarListaDescarga (Collection<Descargable> listaDescargable) {
+	protected static void ordenarListaDescarga (Collection<? extends Descargable> listaDescargable) {
 		List<Descargable> listaParaOrdenar = new ArrayList<Descargable>(listaDescargable);
 		Collections.sort(listaParaOrdenar, Descargable.COMPARADOR);
 	}
