@@ -8,45 +8,46 @@ import app.tienda.valor.Serializado;
  * @param <T>
  *
  */
-public class GeneradorTurnos<T extends Comparable<T> & Serializado<T>>  {
+public class GeneradorTurnos<T extends Comparable<T> & Serializado<T>> {
+	/**
+	 * Es el ultimo turno generado
+	 */
 	private Turno<T> ultimoTurno;
+	private T modeloDeSerie;
 	
-	public Turno<T> getUltimoTurno() { 
+	public Turno<T> getUltimoTurno() {
 		return ultimoTurno;
 	}
 
 	private void setUltimoTurno(Turno<T> ultimoTurno) {
-        this.ultimoTurno = ultimoTurno;
-    }
-	
-	public GeneradorTurnos(Class<T> tipoValor) {
-        super();
-        try {
-            this.ultimoTurno = new Turno<>(tipoValor.newInstance());
-        } catch (InstantiationException | IllegalAccessException e) {
-            e.printStackTrace();
-        }
-    }
-	
-	public GeneradorTurnos(T ultimoServido) {
-        super();
-        this.ultimoTurno = new Turno<>(ultimoServido);
-    }
+		this.ultimoTurno = ultimoTurno;
+	}
 
-    private Turno<T> generarTurno(T valor) {
-		return new Turno<>(valor);
+	private T getModeloDeSerie() {
+		return modeloDeSerie;
+	}
+
+	public GeneradorTurnos (T modelo) {
+		generarTurno(modelo);
+		modeloDeSerie = modelo;
+	}
+	
+	/**Genera un turno y actualiza el ultimoTurno
+	 * @param valor T que envuelve el turno
+	 * @return Devuelve el ultimoTurno
+	 */
+	private Turno<T> generarTurno(T valor) {
+		setUltimoTurno(new Turno<>(valor));
+		return getUltimoTurno();
 	}
 
 	public Turno<T> cogerTurno() {
 		T valorUltimoTurno = getUltimoTurno().getValor();
-		if(valorUltimoTurno.equals(valorUltimoTurno.ultimo())) {
-		    setUltimoTurno(generarTurno(valorUltimoTurno.primero()));
-		}
-		else {
-		    T valorSiguiente = valorUltimoTurno.siguiente();
-		    setUltimoTurno(generarTurno(valorSiguiente));
-		}
-		return getUltimoTurno();
+		T valorSiguiente = valorUltimoTurno.siguiente();
+		return generarTurno(valorSiguiente);
 	}
 	
+	private boolean comprobarMaximo(Serializado<T> serializado) {
+		return serializado.equals(getModeloDeSerie().ultimo());
+	}
 }

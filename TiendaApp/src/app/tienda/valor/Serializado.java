@@ -2,17 +2,17 @@ package app.tienda.valor;
 
 public interface Serializado<T> extends Comparable<T> {
 	
-    T siguiente();
-    T primero();
-	T ultimo();
-	
-	default boolean esPrimero() {
-	    return this.equals(this.primero());
+	static <S> boolean comprobarMaximo(Serializado<S> serializado, Serializado<S> modelo) {
+		return serializado.equals(modelo.ultimo());
 	}
 	
-	default boolean esUltimo() {
-        return this.equals(this.ultimo());
-    }
+	static <S> boolean comprobarMaximo(Serializado<S> serializado) {
+		return comprobarMaximo(serializado, serializado);
+	}
+	
+	T primero();
+	T siguiente();
+	T ultimo();
 	
 	@Override
 	default int compareTo(T o) {

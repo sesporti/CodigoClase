@@ -2,30 +2,36 @@ package app.tienda;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Comparator;
 
 import app.tienda.turno.GeneradorTurnos;
 import app.tienda.turno.Turno;
-import app.tienda.valor.Letra;
+import app.tienda.valor.LetraYNumero;
+import app.tienda.valor.Numero;
+import app.tienda.valor.Serializado;
 
 public class TiendaConGenerico {
 
 	public static void main(String[] args) {
-		GeneradorTurnos<Letra> generador = new GeneradorTurnos<>(new Letra("A"));
-		Collection<Cliente<Letra>> clientes = new ArrayList<>();
-		for(int i = 0; i < 10; i++) {
-		    clientes.add(new Cliente<>());
-		}
-		clientes.forEach(c -> {
-		    c.pedirTurno(generador);
-		    Turno<Letra> turno = c.getTurno();
-		    if(turno.getValor().esPrimero()) {
-		        System.err.println("Empezamos por " + turno);
-		    }
-		    else if(turno.getValor().esUltimo()) {
-                System.err.println("Damos la vuelta en " + turno);
-            }
-		    System.out.println(c);
+		GeneradorTurnos<Numero> generador = new GeneradorTurnos<>(new Numero(10) {
+
+			@Override
+			public Numero ultimo() {
+				return new Numero(50);
+			}
+			
 		});
+		
+		Serializado.comprobarMaximo(new Numero(0));//new LetraYNumero());
+		Numero.comprobarMaximo(new Numero(0));
+		
+		GeneradorTurnos<LetraYNumero> generador2 = new GeneradorTurnos<>(null);
+		
+		Collection<Turno<Numero>> misTurnos = new ArrayList<>();
+		for (int i = 0; i < 5; i++) {
+			misTurnos.add(generador.cogerTurno());
+		}
+		misTurnos.forEach(System.out::println);
 	}
 
 }
