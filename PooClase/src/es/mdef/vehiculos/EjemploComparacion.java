@@ -1,13 +1,24 @@
 package es.mdef.vehiculos;
 
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
+import java.util.function.Consumer;
 
 public class EjemploComparacion {
 
 	public static void main(String[] args) {
+		Collection<Vehiculo> misVehiculos = DatosPrueba.vehiculos;
+		
 		Vehiculo[] flota = DatosPrueba.flota;
+		Consumer<Vehiculo> consumer = new Consumer<Vehiculo>() {
+			@Override
+			public void accept(Vehiculo t) {
+				System.out.println(t);
+			}
+		};
+		consumer = o -> System.out.println(o);
 		Arrays.asList(flota).forEach(System.out::println);
 		Arrays.sort(flota);
 		

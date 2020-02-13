@@ -6,5 +6,8 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TiendaApp"/>
+	<!-- <classpathentry kind="lib" path="lib/ArrancablesEjecutable.jar"/> -->
+	<classpathentry kind="lib" path="lib/jsonbeans-0.9.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

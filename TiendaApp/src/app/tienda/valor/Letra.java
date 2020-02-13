@@ -1,8 +1,12 @@
 package app.tienda.valor;
 
 public class Letra implements Serializado<Letra> {
-    private static String LETRAS_VALIDAS = "ABC";
+    static String LETRAS_VALIDAS = "ABC";
     private String letra;
+    
+    public Letra() {
+    	letra = LETRAS_VALIDAS.split("")[LETRAS_VALIDAS.length() - 1];
+    }
     
     public Letra(String letra) {
         this.letra = letra;

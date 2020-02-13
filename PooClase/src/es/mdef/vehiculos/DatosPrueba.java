@@ -1,5 +1,9 @@
 package es.mdef.vehiculos;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+
 import es.mdef.comun.Coloreable;
 
 public class DatosPrueba {
@@ -39,4 +43,11 @@ public class DatosPrueba {
 			}
 	};
 	
+	public static Collection<Vehiculo> vehiculos;
+	
+	static {
+		vehiculos = Arrays.asList(flota);
+//		vehiculos = new ArrayList<Vehiculo>();
+		vehiculos.add(new Coche("MORADO"));
+	}
 }
