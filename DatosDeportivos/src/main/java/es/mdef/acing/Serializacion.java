@@ -6,7 +6,9 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.time.Instant;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -18,8 +20,10 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.databind.module.SimpleModule;
 import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer;
 import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer;
 
@@ -35,12 +39,15 @@ public class Serializacion {
 						"UTF-8"))) {
 			String linea;
 			buffer.readLine();
+			String patronFecha = "dd/MM/yyyy";
+			DateTimeFormatter dtf = DateTimeFormatter.ofPattern(patronFecha);
+			
 			while ((linea = buffer.readLine()) != null) {
 				Evento evento = new Evento();
 				String[] columnas = linea.split(",");
 				evento.setLocal(columnas[2]);
 				evento.setVisitante(columnas[3]);
-				evento.setFecha(LocalDateTime.now());
+				evento.setFecha(LocalDate.parse(columnas[1], dtf).atTime(20, 45));
 				evento.setGolesLocal(Integer.parseInt(columnas[4]));
 				evento.setGolesVisitante(Integer.parseInt(columnas[5]));
 				evento.setCornerLocal(Integer.parseInt(columnas[15]));
@@ -54,6 +61,7 @@ public class Serializacion {
 		File misEventos = new File("eventos.json");
 		
 		ObjectMapper mapper = new ObjectMapper();
+		mapper.configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false);
 		mapper.addMixIn(Evento.class, MixinEvento.class);
 		mapper.writerWithDefaultPrettyPrinter()
 			.writeValue(misEventos, eventos);
@@ -72,9 +80,9 @@ public class Serializacion {
 		@JsonProperty("home")
 		public abstract String getLocal();
 		
-		@JsonFormat(pattern = "dd MMMM yyyy (HH:mm)")//"yyyy-MM-dd hh:mm:ss")
+		@JsonFormat(pattern = "dd MMMM yyyy")// (HH:mm)")//"yyyy-MM-dd hh:mm:ss")
 		@JsonSerialize(using = LocalDateTimeSerializer.class)
-		@JsonDeserialize(using = LocalDateTimeDeserializer.class)
+		@JsonDeserialize(using = CustomLocalDateTimeDeserializer.class)
 		abstract LocalDateTime getFecha();
 
 		@JsonProperty("HC")
