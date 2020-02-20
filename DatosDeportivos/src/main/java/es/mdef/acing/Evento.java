@@ -67,7 +67,7 @@ public class Evento {
 	public String toString() {
 		return getLocal() + " " + getGolesLocal() + " - "
 				+ getGolesVisitante() + " " + getVisitante()
-				+ " " + getFecha() + "";
+				+ " " + getFecha() + " " + getCornerLocal() + " " + getCornerVisitante();
 	}
 	
 }
