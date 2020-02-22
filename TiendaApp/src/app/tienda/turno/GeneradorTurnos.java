@@ -16,7 +16,7 @@ public class GeneradorTurnos<T extends Comparable<T> & Serializado<T>> {
 	private Turno<T> ultimoTurno;
 	private T modeloDeSerie;
 	
-	public Turno<T> getUltimoTurno() { 
+	public Turno<T> getUltimoTurno() {
 		return ultimoTurno;
 	}
 
