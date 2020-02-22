@@ -1,1 +1,2281 @@
-[ ]
+[ {
+  "home" : "Betis",
+  "golesLocal" : 0,
+  "visitante" : "Levante",
+  "fecha" : "17 agosto 2018",
+  "golesVisitante" : 3
+}, {
+  "home" : "Girona",
+  "golesLocal" : 0,
+  "visitante" : "Valladolid",
+  "fecha" : "17 agosto 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Barcelona",
+  "golesLocal" : 3,
+  "visitante" : "Alaves",
+  "fecha" : "18 agosto 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Celta",
+  "golesLocal" : 1,
+  "visitante" : "Espanol",
+  "fecha" : "18 agosto 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Villarreal",
+  "golesLocal" : 1,
+  "visitante" : "Sociedad",
+  "fecha" : "18 agosto 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Eibar",
+  "golesLocal" : 1,
+  "visitante" : "Huesca",
+  "fecha" : "19 agosto 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Real Madrid",
+  "golesLocal" : 2,
+  "visitante" : "Getafe",
+  "fecha" : "19 agosto 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Vallecano",
+  "golesLocal" : 1,
+  "visitante" : "Sevilla",
+  "fecha" : "19 agosto 2018",
+  "golesVisitante" : 4
+}, {
+  "home" : "Ath Bilbao",
+  "golesLocal" : 2,
+  "visitante" : "Leganes",
+  "fecha" : "20 agosto 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Valencia",
+  "golesLocal" : 1,
+  "visitante" : "Ath Madrid",
+  "fecha" : "20 agosto 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Getafe",
+  "golesLocal" : 2,
+  "visitante" : "Eibar",
+  "fecha" : "24 agosto 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Leganes",
+  "golesLocal" : 2,
+  "visitante" : "Sociedad",
+  "fecha" : "24 agosto 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Alaves",
+  "golesLocal" : 0,
+  "visitante" : "Betis",
+  "fecha" : "25 agosto 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Ath Madrid",
+  "golesLocal" : 1,
+  "visitante" : "Vallecano",
+  "fecha" : "25 agosto 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Valladolid",
+  "golesLocal" : 0,
+  "visitante" : "Barcelona",
+  "fecha" : "25 agosto 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Espanol",
+  "golesLocal" : 2,
+  "visitante" : "Valencia",
+  "fecha" : "26 agosto 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Girona",
+  "golesLocal" : 1,
+  "visitante" : "Real Madrid",
+  "fecha" : "26 agosto 2018",
+  "golesVisitante" : 4
+}, {
+  "home" : "Sevilla",
+  "golesLocal" : 0,
+  "visitante" : "Villarreal",
+  "fecha" : "26 agosto 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Ath Bilbao",
+  "golesLocal" : 2,
+  "visitante" : "Huesca",
+  "fecha" : "27 agosto 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Levante",
+  "golesLocal" : 1,
+  "visitante" : "Celta",
+  "fecha" : "27 agosto 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Eibar",
+  "golesLocal" : 2,
+  "visitante" : "Sociedad",
+  "fecha" : "31 agosto 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Getafe",
+  "golesLocal" : 0,
+  "visitante" : "Valladolid",
+  "fecha" : "31 agosto 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Villarreal",
+  "golesLocal" : 0,
+  "visitante" : "Girona",
+  "fecha" : "31 agosto 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Celta",
+  "golesLocal" : 2,
+  "visitante" : "Ath Madrid",
+  "fecha" : "01 septiembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Real Madrid",
+  "golesLocal" : 4,
+  "visitante" : "Leganes",
+  "fecha" : "01 septiembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Alaves",
+  "golesLocal" : 2,
+  "visitante" : "Espanol",
+  "fecha" : "02 septiembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Barcelona",
+  "golesLocal" : 8,
+  "visitante" : "Huesca",
+  "fecha" : "02 septiembre 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Betis",
+  "golesLocal" : 1,
+  "visitante" : "Sevilla",
+  "fecha" : "02 septiembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Levante",
+  "golesLocal" : 2,
+  "visitante" : "Valencia",
+  "fecha" : "02 septiembre 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Huesca",
+  "golesLocal" : 0,
+  "visitante" : "Vallecano",
+  "fecha" : "14 septiembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Ath Bilbao",
+  "golesLocal" : 1,
+  "visitante" : "Real Madrid",
+  "fecha" : "15 septiembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Ath Madrid",
+  "golesLocal" : 1,
+  "visitante" : "Eibar",
+  "fecha" : "15 septiembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Sociedad",
+  "golesLocal" : 1,
+  "visitante" : "Barcelona",
+  "fecha" : "15 septiembre 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Valencia",
+  "golesLocal" : 0,
+  "visitante" : "Betis",
+  "fecha" : "15 septiembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Espanol",
+  "golesLocal" : 1,
+  "visitante" : "Levante",
+  "fecha" : "16 septiembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Leganes",
+  "golesLocal" : 0,
+  "visitante" : "Villarreal",
+  "fecha" : "16 septiembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Sevilla",
+  "golesLocal" : 0,
+  "visitante" : "Getafe",
+  "fecha" : "16 septiembre 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Valladolid",
+  "golesLocal" : 0,
+  "visitante" : "Alaves",
+  "fecha" : "16 septiembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Girona",
+  "golesLocal" : 3,
+  "visitante" : "Celta",
+  "fecha" : "17 septiembre 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Huesca",
+  "golesLocal" : 0,
+  "visitante" : "Sociedad",
+  "fecha" : "21 septiembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Celta",
+  "golesLocal" : 3,
+  "visitante" : "Valladolid",
+  "fecha" : "22 septiembre 2018",
+  "golesVisitante" : 3
+}, {
+  "home" : "Eibar",
+  "golesLocal" : 1,
+  "visitante" : "Leganes",
+  "fecha" : "22 septiembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Getafe",
+  "golesLocal" : 0,
+  "visitante" : "Ath Madrid",
+  "fecha" : "22 septiembre 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Real Madrid",
+  "golesLocal" : 1,
+  "visitante" : "Espanol",
+  "fecha" : "22 septiembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Vallecano",
+  "golesLocal" : 1,
+  "visitante" : "Alaves",
+  "fecha" : "22 septiembre 2018",
+  "golesVisitante" : 5
+}, {
+  "home" : "Barcelona",
+  "golesLocal" : 2,
+  "visitante" : "Girona",
+  "fecha" : "23 septiembre 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Betis",
+  "golesLocal" : 2,
+  "visitante" : "Ath Bilbao",
+  "fecha" : "23 septiembre 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Levante",
+  "golesLocal" : 2,
+  "visitante" : "Sevilla",
+  "fecha" : "23 septiembre 2018",
+  "golesVisitante" : 6
+}, {
+  "home" : "Villarreal",
+  "golesLocal" : 0,
+  "visitante" : "Valencia",
+  "fecha" : "23 septiembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Ath Madrid",
+  "golesLocal" : 3,
+  "visitante" : "Huesca",
+  "fecha" : "25 septiembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Espanol",
+  "golesLocal" : 1,
+  "visitante" : "Eibar",
+  "fecha" : "25 septiembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Sociedad",
+  "golesLocal" : 2,
+  "visitante" : "Vallecano",
+  "fecha" : "25 septiembre 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Ath Bilbao",
+  "golesLocal" : 0,
+  "visitante" : "Villarreal",
+  "fecha" : "26 septiembre 2018",
+  "golesVisitante" : 3
+}, {
+  "home" : "Leganes",
+  "golesLocal" : 2,
+  "visitante" : "Barcelona",
+  "fecha" : "26 septiembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Sevilla",
+  "golesLocal" : 3,
+  "visitante" : "Real Madrid",
+  "fecha" : "26 septiembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Valencia",
+  "golesLocal" : 1,
+  "visitante" : "Celta",
+  "fecha" : "26 septiembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Alaves",
+  "golesLocal" : 1,
+  "visitante" : "Getafe",
+  "fecha" : "27 septiembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Girona",
+  "golesLocal" : 0,
+  "visitante" : "Betis",
+  "fecha" : "27 septiembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Valladolid",
+  "golesLocal" : 2,
+  "visitante" : "Levante",
+  "fecha" : "27 septiembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Vallecano",
+  "golesLocal" : 2,
+  "visitante" : "Espanol",
+  "fecha" : "28 septiembre 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Barcelona",
+  "golesLocal" : 1,
+  "visitante" : "Ath Bilbao",
+  "fecha" : "29 septiembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Eibar",
+  "golesLocal" : 1,
+  "visitante" : "Sevilla",
+  "fecha" : "29 septiembre 2018",
+  "golesVisitante" : 3
+}, {
+  "home" : "Real Madrid",
+  "golesLocal" : 0,
+  "visitante" : "Ath Madrid",
+  "fecha" : "29 septiembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Sociedad",
+  "golesLocal" : 0,
+  "visitante" : "Valencia",
+  "fecha" : "29 septiembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Betis",
+  "golesLocal" : 1,
+  "visitante" : "Leganes",
+  "fecha" : "30 septiembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Huesca",
+  "golesLocal" : 1,
+  "visitante" : "Girona",
+  "fecha" : "30 septiembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Levante",
+  "golesLocal" : 2,
+  "visitante" : "Alaves",
+  "fecha" : "30 septiembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Villarreal",
+  "golesLocal" : 0,
+  "visitante" : "Valladolid",
+  "fecha" : "30 septiembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Celta",
+  "golesLocal" : 1,
+  "visitante" : "Getafe",
+  "fecha" : "01 octubre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Ath Bilbao",
+  "golesLocal" : 1,
+  "visitante" : "Sociedad",
+  "fecha" : "05 octubre 2018",
+  "golesVisitante" : 3
+}, {
+  "home" : "Alaves",
+  "golesLocal" : 1,
+  "visitante" : "Real Madrid",
+  "fecha" : "06 octubre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Getafe",
+  "golesLocal" : 0,
+  "visitante" : "Levante",
+  "fecha" : "06 octubre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Girona",
+  "golesLocal" : 2,
+  "visitante" : "Eibar",
+  "fecha" : "06 octubre 2018",
+  "golesVisitante" : 3
+}, {
+  "home" : "Leganes",
+  "golesLocal" : 1,
+  "visitante" : "Vallecano",
+  "fecha" : "06 octubre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Ath Madrid",
+  "golesLocal" : 1,
+  "visitante" : "Betis",
+  "fecha" : "07 octubre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Espanol",
+  "golesLocal" : 3,
+  "visitante" : "Villarreal",
+  "fecha" : "07 octubre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Sevilla",
+  "golesLocal" : 2,
+  "visitante" : "Celta",
+  "fecha" : "07 octubre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Valencia",
+  "golesLocal" : 1,
+  "visitante" : "Barcelona",
+  "fecha" : "07 octubre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Valladolid",
+  "golesLocal" : 1,
+  "visitante" : "Huesca",
+  "fecha" : "07 octubre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Celta",
+  "golesLocal" : 0,
+  "visitante" : "Alaves",
+  "fecha" : "19 octubre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Barcelona",
+  "golesLocal" : 4,
+  "visitante" : "Sevilla",
+  "fecha" : "20 octubre 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Real Madrid",
+  "golesLocal" : 1,
+  "visitante" : "Levante",
+  "fecha" : "20 octubre 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Valencia",
+  "golesLocal" : 1,
+  "visitante" : "Leganes",
+  "fecha" : "20 octubre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Villarreal",
+  "golesLocal" : 1,
+  "visitante" : "Ath Madrid",
+  "fecha" : "20 octubre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Betis",
+  "golesLocal" : 0,
+  "visitante" : "Valladolid",
+  "fecha" : "21 octubre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Eibar",
+  "golesLocal" : 1,
+  "visitante" : "Ath Bilbao",
+  "fecha" : "21 octubre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Huesca",
+  "golesLocal" : 0,
+  "visitante" : "Espanol",
+  "fecha" : "21 octubre 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Vallecano",
+  "golesLocal" : 1,
+  "visitante" : "Getafe",
+  "fecha" : "21 octubre 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Sociedad",
+  "golesLocal" : 0,
+  "visitante" : "Girona",
+  "fecha" : "22 octubre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Vallecano",
+  "golesLocal" : 1,
+  "visitante" : "Ath Bilbao",
+  "fecha" : "24 octubre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Valladolid",
+  "golesLocal" : 1,
+  "visitante" : "Espanol",
+  "fecha" : "26 octubre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Ath Bilbao",
+  "golesLocal" : 0,
+  "visitante" : "Valencia",
+  "fecha" : "27 octubre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Ath Madrid",
+  "golesLocal" : 2,
+  "visitante" : "Sociedad",
+  "fecha" : "27 octubre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Celta",
+  "golesLocal" : 4,
+  "visitante" : "Eibar",
+  "fecha" : "27 octubre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Girona",
+  "golesLocal" : 2,
+  "visitante" : "Vallecano",
+  "fecha" : "27 octubre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Levante",
+  "golesLocal" : 2,
+  "visitante" : "Leganes",
+  "fecha" : "27 octubre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Alaves",
+  "golesLocal" : 2,
+  "visitante" : "Villarreal",
+  "fecha" : "28 octubre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Barcelona",
+  "golesLocal" : 5,
+  "visitante" : "Real Madrid",
+  "fecha" : "28 octubre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Getafe",
+  "golesLocal" : 2,
+  "visitante" : "Betis",
+  "fecha" : "28 octubre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Sevilla",
+  "golesLocal" : 2,
+  "visitante" : "Huesca",
+  "fecha" : "28 octubre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Leganes",
+  "golesLocal" : 1,
+  "visitante" : "Ath Madrid",
+  "fecha" : "03 noviembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Real Madrid",
+  "golesLocal" : 2,
+  "visitante" : "Valladolid",
+  "fecha" : "03 noviembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Valencia",
+  "golesLocal" : 0,
+  "visitante" : "Girona",
+  "fecha" : "03 noviembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Vallecano",
+  "golesLocal" : 2,
+  "visitante" : "Barcelona",
+  "fecha" : "03 noviembre 2018",
+  "golesVisitante" : 3
+}, {
+  "home" : "Betis",
+  "golesLocal" : 3,
+  "visitante" : "Celta",
+  "fecha" : "04 noviembre 2018",
+  "golesVisitante" : 3
+}, {
+  "home" : "Eibar",
+  "golesLocal" : 2,
+  "visitante" : "Alaves",
+  "fecha" : "04 noviembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Huesca",
+  "golesLocal" : 1,
+  "visitante" : "Getafe",
+  "fecha" : "04 noviembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Sociedad",
+  "golesLocal" : 0,
+  "visitante" : "Sevilla",
+  "fecha" : "04 noviembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Villarreal",
+  "golesLocal" : 1,
+  "visitante" : "Levante",
+  "fecha" : "04 noviembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Espanol",
+  "golesLocal" : 1,
+  "visitante" : "Ath Bilbao",
+  "fecha" : "05 noviembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Levante",
+  "golesLocal" : 1,
+  "visitante" : "Sociedad",
+  "fecha" : "09 noviembre 2018",
+  "golesVisitante" : 3
+}, {
+  "home" : "Ath Madrid",
+  "golesLocal" : 3,
+  "visitante" : "Ath Bilbao",
+  "fecha" : "10 noviembre 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Getafe",
+  "golesLocal" : 0,
+  "visitante" : "Valencia",
+  "fecha" : "10 noviembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Girona",
+  "golesLocal" : 0,
+  "visitante" : "Leganes",
+  "fecha" : "10 noviembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Valladolid",
+  "golesLocal" : 0,
+  "visitante" : "Eibar",
+  "fecha" : "10 noviembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Alaves",
+  "golesLocal" : 2,
+  "visitante" : "Huesca",
+  "fecha" : "11 noviembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Barcelona",
+  "golesLocal" : 3,
+  "visitante" : "Betis",
+  "fecha" : "11 noviembre 2018",
+  "golesVisitante" : 4
+}, {
+  "home" : "Celta",
+  "golesLocal" : 2,
+  "visitante" : "Real Madrid",
+  "fecha" : "11 noviembre 2018",
+  "golesVisitante" : 4
+}, {
+  "home" : "Sevilla",
+  "golesLocal" : 2,
+  "visitante" : "Espanol",
+  "fecha" : "11 noviembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Vallecano",
+  "golesLocal" : 2,
+  "visitante" : "Villarreal",
+  "fecha" : "11 noviembre 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Leganes",
+  "golesLocal" : 1,
+  "visitante" : "Alaves",
+  "fecha" : "23 noviembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Ath Madrid",
+  "golesLocal" : 1,
+  "visitante" : "Barcelona",
+  "fecha" : "24 noviembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Eibar",
+  "golesLocal" : 3,
+  "visitante" : "Real Madrid",
+  "fecha" : "24 noviembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Huesca",
+  "golesLocal" : 2,
+  "visitante" : "Levante",
+  "fecha" : "24 noviembre 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Valencia",
+  "golesLocal" : 3,
+  "visitante" : "Vallecano",
+  "fecha" : "24 noviembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Ath Bilbao",
+  "golesLocal" : 1,
+  "visitante" : "Getafe",
+  "fecha" : "25 noviembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Espanol",
+  "golesLocal" : 1,
+  "visitante" : "Girona",
+  "fecha" : "25 noviembre 2018",
+  "golesVisitante" : 3
+}, {
+  "home" : "Sevilla",
+  "golesLocal" : 1,
+  "visitante" : "Valladolid",
+  "fecha" : "25 noviembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Villarreal",
+  "golesLocal" : 2,
+  "visitante" : "Betis",
+  "fecha" : "25 noviembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Sociedad",
+  "golesLocal" : 2,
+  "visitante" : "Celta",
+  "fecha" : "26 noviembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Vallecano",
+  "golesLocal" : 1,
+  "visitante" : "Eibar",
+  "fecha" : "30 noviembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Celta",
+  "golesLocal" : 2,
+  "visitante" : "Huesca",
+  "fecha" : "01 diciembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Getafe",
+  "golesLocal" : 3,
+  "visitante" : "Espanol",
+  "fecha" : "01 diciembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Real Madrid",
+  "golesLocal" : 2,
+  "visitante" : "Valencia",
+  "fecha" : "01 diciembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Valladolid",
+  "golesLocal" : 2,
+  "visitante" : "Leganes",
+  "fecha" : "01 diciembre 2018",
+  "golesVisitante" : 4
+}, {
+  "home" : "Alaves",
+  "golesLocal" : 1,
+  "visitante" : "Sevilla",
+  "fecha" : "02 diciembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Barcelona",
+  "golesLocal" : 2,
+  "visitante" : "Villarreal",
+  "fecha" : "02 diciembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Betis",
+  "golesLocal" : 1,
+  "visitante" : "Sociedad",
+  "fecha" : "02 diciembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Girona",
+  "golesLocal" : 1,
+  "visitante" : "Ath Madrid",
+  "fecha" : "02 diciembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Levante",
+  "golesLocal" : 3,
+  "visitante" : "Ath Bilbao",
+  "fecha" : "03 diciembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Leganes",
+  "golesLocal" : 1,
+  "visitante" : "Getafe",
+  "fecha" : "07 diciembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Ath Madrid",
+  "golesLocal" : 3,
+  "visitante" : "Alaves",
+  "fecha" : "08 diciembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Espanol",
+  "golesLocal" : 0,
+  "visitante" : "Barcelona",
+  "fecha" : "08 diciembre 2018",
+  "golesVisitante" : 4
+}, {
+  "home" : "Valencia",
+  "golesLocal" : 1,
+  "visitante" : "Sevilla",
+  "fecha" : "08 diciembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Villarreal",
+  "golesLocal" : 2,
+  "visitante" : "Celta",
+  "fecha" : "08 diciembre 2018",
+  "golesVisitante" : 3
+}, {
+  "home" : "Betis",
+  "golesLocal" : 2,
+  "visitante" : "Vallecano",
+  "fecha" : "09 diciembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Eibar",
+  "golesLocal" : 4,
+  "visitante" : "Levante",
+  "fecha" : "09 diciembre 2018",
+  "golesVisitante" : 4
+}, {
+  "home" : "Huesca",
+  "golesLocal" : 0,
+  "visitante" : "Real Madrid",
+  "fecha" : "09 diciembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Sociedad",
+  "golesLocal" : 1,
+  "visitante" : "Valladolid",
+  "fecha" : "09 diciembre 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Ath Bilbao",
+  "golesLocal" : 1,
+  "visitante" : "Girona",
+  "fecha" : "10 diciembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Celta",
+  "golesLocal" : 0,
+  "visitante" : "Leganes",
+  "fecha" : "14 diciembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Eibar",
+  "golesLocal" : 1,
+  "visitante" : "Valencia",
+  "fecha" : "15 diciembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Getafe",
+  "golesLocal" : 1,
+  "visitante" : "Sociedad",
+  "fecha" : "15 diciembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Real Madrid",
+  "golesLocal" : 1,
+  "visitante" : "Vallecano",
+  "fecha" : "15 diciembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Valladolid",
+  "golesLocal" : 2,
+  "visitante" : "Ath Madrid",
+  "fecha" : "15 diciembre 2018",
+  "golesVisitante" : 3
+}, {
+  "home" : "Espanol",
+  "golesLocal" : 1,
+  "visitante" : "Betis",
+  "fecha" : "16 diciembre 2018",
+  "golesVisitante" : 3
+}, {
+  "home" : "Huesca",
+  "golesLocal" : 2,
+  "visitante" : "Villarreal",
+  "fecha" : "16 diciembre 2018",
+  "golesVisitante" : 2
+}, {
+  "home" : "Levante",
+  "golesLocal" : 0,
+  "visitante" : "Barcelona",
+  "fecha" : "16 diciembre 2018",
+  "golesVisitante" : 5
+}, {
+  "home" : "Sevilla",
+  "golesLocal" : 2,
+  "visitante" : "Girona",
+  "fecha" : "16 diciembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Alaves",
+  "golesLocal" : 0,
+  "visitante" : "Ath Bilbao",
+  "fecha" : "17 diciembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Girona",
+  "golesLocal" : 1,
+  "visitante" : "Getafe",
+  "fecha" : "21 diciembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Sociedad",
+  "golesLocal" : 0,
+  "visitante" : "Alaves",
+  "fecha" : "21 diciembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Ath Bilbao",
+  "golesLocal" : 1,
+  "visitante" : "Valladolid",
+  "fecha" : "22 diciembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Ath Madrid",
+  "golesLocal" : 1,
+  "visitante" : "Espanol",
+  "fecha" : "22 diciembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Barcelona",
+  "golesLocal" : 2,
+  "visitante" : "Celta",
+  "fecha" : "22 diciembre 2018",
+  "golesVisitante" : 0
+}, {
+  "home" : "Betis",
+  "golesLocal" : 1,
+  "visitante" : "Eibar",
+  "fecha" : "22 diciembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Leganes",
+  "golesLocal" : 1,
+  "visitante" : "Sevilla",
+  "fecha" : "23 diciembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Valencia",
+  "golesLocal" : 2,
+  "visitante" : "Huesca",
+  "fecha" : "23 diciembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Vallecano",
+  "golesLocal" : 2,
+  "visitante" : "Levante",
+  "fecha" : "23 diciembre 2018",
+  "golesVisitante" : 1
+}, {
+  "home" : "Villarreal",
+  "golesLocal" : 2,
+  "visitante" : "Real Madrid",
+  "fecha" : "03 enero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Espanol",
+  "golesLocal" : 1,
+  "visitante" : "Leganes",
+  "fecha" : "04 enero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Levante",
+  "golesLocal" : 2,
+  "visitante" : "Girona",
+  "fecha" : "04 enero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Alaves",
+  "golesLocal" : 2,
+  "visitante" : "Valencia",
+  "fecha" : "05 enero 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Huesca",
+  "golesLocal" : 2,
+  "visitante" : "Betis",
+  "fecha" : "05 enero 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Valladolid",
+  "golesLocal" : 0,
+  "visitante" : "Vallecano",
+  "fecha" : "05 enero 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Eibar",
+  "golesLocal" : 0,
+  "visitante" : "Villarreal",
+  "fecha" : "06 enero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Getafe",
+  "golesLocal" : 1,
+  "visitante" : "Barcelona",
+  "fecha" : "06 enero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Real Madrid",
+  "golesLocal" : 0,
+  "visitante" : "Sociedad",
+  "fecha" : "06 enero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Sevilla",
+  "golesLocal" : 1,
+  "visitante" : "Ath Madrid",
+  "fecha" : "06 enero 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Celta",
+  "golesLocal" : 1,
+  "visitante" : "Ath Bilbao",
+  "fecha" : "07 enero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Vallecano",
+  "golesLocal" : 4,
+  "visitante" : "Celta",
+  "fecha" : "11 enero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Girona",
+  "golesLocal" : 1,
+  "visitante" : "Alaves",
+  "fecha" : "12 enero 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Leganes",
+  "golesLocal" : 1,
+  "visitante" : "Huesca",
+  "fecha" : "12 enero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Valencia",
+  "golesLocal" : 1,
+  "visitante" : "Valladolid",
+  "fecha" : "12 enero 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Villarreal",
+  "golesLocal" : 1,
+  "visitante" : "Getafe",
+  "fecha" : "12 enero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Ath Bilbao",
+  "golesLocal" : 2,
+  "visitante" : "Sevilla",
+  "fecha" : "13 enero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Ath Madrid",
+  "golesLocal" : 1,
+  "visitante" : "Levante",
+  "fecha" : "13 enero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Barcelona",
+  "golesLocal" : 3,
+  "visitante" : "Eibar",
+  "fecha" : "13 enero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Betis",
+  "golesLocal" : 1,
+  "visitante" : "Real Madrid",
+  "fecha" : "13 enero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Sociedad",
+  "golesLocal" : 3,
+  "visitante" : "Espanol",
+  "fecha" : "14 enero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Getafe",
+  "golesLocal" : 4,
+  "visitante" : "Alaves",
+  "fecha" : "18 enero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Celta",
+  "golesLocal" : 1,
+  "visitante" : "Valencia",
+  "fecha" : "19 enero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Huesca",
+  "golesLocal" : 0,
+  "visitante" : "Ath Madrid",
+  "fecha" : "19 enero 2019",
+  "golesVisitante" : 3
+}, {
+  "home" : "Real Madrid",
+  "golesLocal" : 2,
+  "visitante" : "Sevilla",
+  "fecha" : "19 enero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Barcelona",
+  "golesLocal" : 3,
+  "visitante" : "Leganes",
+  "fecha" : "20 enero 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Betis",
+  "golesLocal" : 3,
+  "visitante" : "Girona",
+  "fecha" : "20 enero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Levante",
+  "golesLocal" : 2,
+  "visitante" : "Valladolid",
+  "fecha" : "20 enero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Vallecano",
+  "golesLocal" : 2,
+  "visitante" : "Sociedad",
+  "fecha" : "20 enero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Villarreal",
+  "golesLocal" : 1,
+  "visitante" : "Ath Bilbao",
+  "fecha" : "20 enero 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Eibar",
+  "golesLocal" : 3,
+  "visitante" : "Espanol",
+  "fecha" : "21 enero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Ath Madrid",
+  "golesLocal" : 2,
+  "visitante" : "Getafe",
+  "fecha" : "26 enero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Leganes",
+  "golesLocal" : 2,
+  "visitante" : "Eibar",
+  "fecha" : "26 enero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Sevilla",
+  "golesLocal" : 5,
+  "visitante" : "Levante",
+  "fecha" : "26 enero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Valencia",
+  "golesLocal" : 3,
+  "visitante" : "Villarreal",
+  "fecha" : "26 enero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Ath Bilbao",
+  "golesLocal" : 1,
+  "visitante" : "Betis",
+  "fecha" : "27 enero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Espanol",
+  "golesLocal" : 2,
+  "visitante" : "Real Madrid",
+  "fecha" : "27 enero 2019",
+  "golesVisitante" : 4
+}, {
+  "home" : "Girona",
+  "golesLocal" : 0,
+  "visitante" : "Barcelona",
+  "fecha" : "27 enero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Sociedad",
+  "golesLocal" : 0,
+  "visitante" : "Huesca",
+  "fecha" : "27 enero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Valladolid",
+  "golesLocal" : 2,
+  "visitante" : "Celta",
+  "fecha" : "27 enero 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Alaves",
+  "golesLocal" : 0,
+  "visitante" : "Vallecano",
+  "fecha" : "28 enero 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Huesca",
+  "golesLocal" : 4,
+  "visitante" : "Valladolid",
+  "fecha" : "01 febrero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Barcelona",
+  "golesLocal" : 2,
+  "visitante" : "Valencia",
+  "fecha" : "02 febrero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Celta",
+  "golesLocal" : 1,
+  "visitante" : "Sevilla",
+  "fecha" : "02 febrero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Levante",
+  "golesLocal" : 0,
+  "visitante" : "Getafe",
+  "fecha" : "02 febrero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Sociedad",
+  "golesLocal" : 2,
+  "visitante" : "Ath Bilbao",
+  "fecha" : "02 febrero 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Betis",
+  "golesLocal" : 1,
+  "visitante" : "Ath Madrid",
+  "fecha" : "03 febrero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Eibar",
+  "golesLocal" : 3,
+  "visitante" : "Girona",
+  "fecha" : "03 febrero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Real Madrid",
+  "golesLocal" : 3,
+  "visitante" : "Alaves",
+  "fecha" : "03 febrero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Villarreal",
+  "golesLocal" : 2,
+  "visitante" : "Espanol",
+  "fecha" : "03 febrero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Vallecano",
+  "golesLocal" : 1,
+  "visitante" : "Leganes",
+  "fecha" : "04 febrero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Valladolid",
+  "golesLocal" : 0,
+  "visitante" : "Villarreal",
+  "fecha" : "08 febrero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Ath Madrid",
+  "golesLocal" : 1,
+  "visitante" : "Real Madrid",
+  "fecha" : "09 febrero 2019",
+  "golesVisitante" : 3
+}, {
+  "home" : "Espanol",
+  "golesLocal" : 2,
+  "visitante" : "Vallecano",
+  "fecha" : "09 febrero 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Getafe",
+  "golesLocal" : 3,
+  "visitante" : "Celta",
+  "fecha" : "09 febrero 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Girona",
+  "golesLocal" : 0,
+  "visitante" : "Huesca",
+  "fecha" : "09 febrero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Ath Bilbao",
+  "golesLocal" : 0,
+  "visitante" : "Barcelona",
+  "fecha" : "10 febrero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Leganes",
+  "golesLocal" : 3,
+  "visitante" : "Betis",
+  "fecha" : "10 febrero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Sevilla",
+  "golesLocal" : 2,
+  "visitante" : "Eibar",
+  "fecha" : "10 febrero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Valencia",
+  "golesLocal" : 0,
+  "visitante" : "Sociedad",
+  "fecha" : "10 febrero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Alaves",
+  "golesLocal" : 2,
+  "visitante" : "Levante",
+  "fecha" : "11 febrero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Eibar",
+  "golesLocal" : 2,
+  "visitante" : "Getafe",
+  "fecha" : "15 febrero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Barcelona",
+  "golesLocal" : 1,
+  "visitante" : "Valladolid",
+  "fecha" : "16 febrero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Celta",
+  "golesLocal" : 1,
+  "visitante" : "Levante",
+  "fecha" : "16 febrero 2019",
+  "golesVisitante" : 4
+}, {
+  "home" : "Sociedad",
+  "golesLocal" : 3,
+  "visitante" : "Leganes",
+  "fecha" : "16 febrero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Vallecano",
+  "golesLocal" : 0,
+  "visitante" : "Ath Madrid",
+  "fecha" : "16 febrero 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Betis",
+  "golesLocal" : 1,
+  "visitante" : "Alaves",
+  "fecha" : "17 febrero 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Real Madrid",
+  "golesLocal" : 1,
+  "visitante" : "Girona",
+  "fecha" : "17 febrero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Valencia",
+  "golesLocal" : 0,
+  "visitante" : "Espanol",
+  "fecha" : "17 febrero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Villarreal",
+  "golesLocal" : 3,
+  "visitante" : "Sevilla",
+  "fecha" : "17 febrero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Huesca",
+  "golesLocal" : 0,
+  "visitante" : "Ath Bilbao",
+  "fecha" : "18 febrero 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Espanol",
+  "golesLocal" : 1,
+  "visitante" : "Huesca",
+  "fecha" : "22 febrero 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Alaves",
+  "golesLocal" : 0,
+  "visitante" : "Celta",
+  "fecha" : "23 febrero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Ath Bilbao",
+  "golesLocal" : 1,
+  "visitante" : "Eibar",
+  "fecha" : "23 febrero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Getafe",
+  "golesLocal" : 2,
+  "visitante" : "Vallecano",
+  "fecha" : "23 febrero 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Sevilla",
+  "golesLocal" : 2,
+  "visitante" : "Barcelona",
+  "fecha" : "23 febrero 2019",
+  "golesVisitante" : 4
+}, {
+  "home" : "Ath Madrid",
+  "golesLocal" : 2,
+  "visitante" : "Villarreal",
+  "fecha" : "24 febrero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Leganes",
+  "golesLocal" : 1,
+  "visitante" : "Valencia",
+  "fecha" : "24 febrero 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Levante",
+  "golesLocal" : 1,
+  "visitante" : "Real Madrid",
+  "fecha" : "24 febrero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Valladolid",
+  "golesLocal" : 0,
+  "visitante" : "Betis",
+  "fecha" : "24 febrero 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Girona",
+  "golesLocal" : 0,
+  "visitante" : "Sociedad",
+  "fecha" : "25 febrero 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Vallecano",
+  "golesLocal" : 0,
+  "visitante" : "Girona",
+  "fecha" : "01 marzo 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Espanol",
+  "golesLocal" : 3,
+  "visitante" : "Valladolid",
+  "fecha" : "02 marzo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Huesca",
+  "golesLocal" : 2,
+  "visitante" : "Sevilla",
+  "fecha" : "02 marzo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Real Madrid",
+  "golesLocal" : 0,
+  "visitante" : "Barcelona",
+  "fecha" : "02 marzo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Villarreal",
+  "golesLocal" : 1,
+  "visitante" : "Alaves",
+  "fecha" : "02 marzo 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Betis",
+  "golesLocal" : 1,
+  "visitante" : "Getafe",
+  "fecha" : "03 marzo 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Eibar",
+  "golesLocal" : 1,
+  "visitante" : "Celta",
+  "fecha" : "03 marzo 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Sociedad",
+  "golesLocal" : 0,
+  "visitante" : "Ath Madrid",
+  "fecha" : "03 marzo 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Valencia",
+  "golesLocal" : 2,
+  "visitante" : "Ath Bilbao",
+  "fecha" : "03 marzo 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Leganes",
+  "golesLocal" : 1,
+  "visitante" : "Levante",
+  "fecha" : "04 marzo 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Ath Bilbao",
+  "golesLocal" : 1,
+  "visitante" : "Espanol",
+  "fecha" : "08 marzo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Alaves",
+  "golesLocal" : 1,
+  "visitante" : "Eibar",
+  "fecha" : "09 marzo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Ath Madrid",
+  "golesLocal" : 1,
+  "visitante" : "Leganes",
+  "fecha" : "09 marzo 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Barcelona",
+  "golesLocal" : 3,
+  "visitante" : "Vallecano",
+  "fecha" : "09 marzo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Getafe",
+  "golesLocal" : 2,
+  "visitante" : "Huesca",
+  "fecha" : "09 marzo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Celta",
+  "golesLocal" : 0,
+  "visitante" : "Betis",
+  "fecha" : "10 marzo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Girona",
+  "golesLocal" : 2,
+  "visitante" : "Valencia",
+  "fecha" : "10 marzo 2019",
+  "golesVisitante" : 3
+}, {
+  "home" : "Levante",
+  "golesLocal" : 0,
+  "visitante" : "Villarreal",
+  "fecha" : "10 marzo 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Sevilla",
+  "golesLocal" : 5,
+  "visitante" : "Sociedad",
+  "fecha" : "10 marzo 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Valladolid",
+  "golesLocal" : 1,
+  "visitante" : "Real Madrid",
+  "fecha" : "10 marzo 2019",
+  "golesVisitante" : 4
+}, {
+  "home" : "Sociedad",
+  "golesLocal" : 1,
+  "visitante" : "Levante",
+  "fecha" : "15 marzo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Ath Bilbao",
+  "golesLocal" : 2,
+  "visitante" : "Ath Madrid",
+  "fecha" : "16 marzo 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Huesca",
+  "golesLocal" : 1,
+  "visitante" : "Alaves",
+  "fecha" : "16 marzo 2019",
+  "golesVisitante" : 3
+}, {
+  "home" : "Leganes",
+  "golesLocal" : 0,
+  "visitante" : "Girona",
+  "fecha" : "16 marzo 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Real Madrid",
+  "golesLocal" : 2,
+  "visitante" : "Celta",
+  "fecha" : "16 marzo 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Betis",
+  "golesLocal" : 1,
+  "visitante" : "Barcelona",
+  "fecha" : "17 marzo 2019",
+  "golesVisitante" : 4
+}, {
+  "home" : "Eibar",
+  "golesLocal" : 1,
+  "visitante" : "Valladolid",
+  "fecha" : "17 marzo 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Espanol",
+  "golesLocal" : 0,
+  "visitante" : "Sevilla",
+  "fecha" : "17 marzo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Valencia",
+  "golesLocal" : 0,
+  "visitante" : "Getafe",
+  "fecha" : "17 marzo 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Villarreal",
+  "golesLocal" : 3,
+  "visitante" : "Vallecano",
+  "fecha" : "17 marzo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Girona",
+  "golesLocal" : 1,
+  "visitante" : "Ath Bilbao",
+  "fecha" : "29 marzo 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Alaves",
+  "golesLocal" : 0,
+  "visitante" : "Ath Madrid",
+  "fecha" : "30 marzo 2019",
+  "golesVisitante" : 4
+}, {
+  "home" : "Barcelona",
+  "golesLocal" : 2,
+  "visitante" : "Espanol",
+  "fecha" : "30 marzo 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Celta",
+  "golesLocal" : 3,
+  "visitante" : "Villarreal",
+  "fecha" : "30 marzo 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Getafe",
+  "golesLocal" : 0,
+  "visitante" : "Leganes",
+  "fecha" : "30 marzo 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Levante",
+  "golesLocal" : 2,
+  "visitante" : "Eibar",
+  "fecha" : "31 marzo 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Real Madrid",
+  "golesLocal" : 3,
+  "visitante" : "Huesca",
+  "fecha" : "31 marzo 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Sevilla",
+  "golesLocal" : 0,
+  "visitante" : "Valencia",
+  "fecha" : "31 marzo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Valladolid",
+  "golesLocal" : 1,
+  "visitante" : "Sociedad",
+  "fecha" : "31 marzo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Vallecano",
+  "golesLocal" : 1,
+  "visitante" : "Betis",
+  "fecha" : "31 marzo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Ath Madrid",
+  "golesLocal" : 2,
+  "visitante" : "Girona",
+  "fecha" : "02 abril 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Espanol",
+  "golesLocal" : 1,
+  "visitante" : "Getafe",
+  "fecha" : "02 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Villarreal",
+  "golesLocal" : 4,
+  "visitante" : "Barcelona",
+  "fecha" : "02 abril 2019",
+  "golesVisitante" : 4
+}, {
+  "home" : "Ath Bilbao",
+  "golesLocal" : 3,
+  "visitante" : "Levante",
+  "fecha" : "03 abril 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Eibar",
+  "golesLocal" : 2,
+  "visitante" : "Vallecano",
+  "fecha" : "03 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Huesca",
+  "golesLocal" : 3,
+  "visitante" : "Celta",
+  "fecha" : "03 abril 2019",
+  "golesVisitante" : 3
+}, {
+  "home" : "Valencia",
+  "golesLocal" : 2,
+  "visitante" : "Real Madrid",
+  "fecha" : "03 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Leganes",
+  "golesLocal" : 1,
+  "visitante" : "Valladolid",
+  "fecha" : "04 abril 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Sevilla",
+  "golesLocal" : 2,
+  "visitante" : "Alaves",
+  "fecha" : "04 abril 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Sociedad",
+  "golesLocal" : 2,
+  "visitante" : "Betis",
+  "fecha" : "04 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Barcelona",
+  "golesLocal" : 2,
+  "visitante" : "Ath Madrid",
+  "fecha" : "06 abril 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Girona",
+  "golesLocal" : 1,
+  "visitante" : "Espanol",
+  "fecha" : "06 abril 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Real Madrid",
+  "golesLocal" : 2,
+  "visitante" : "Eibar",
+  "fecha" : "06 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Vallecano",
+  "golesLocal" : 2,
+  "visitante" : "Valencia",
+  "fecha" : "06 abril 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Alaves",
+  "golesLocal" : 1,
+  "visitante" : "Leganes",
+  "fecha" : "07 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Betis",
+  "golesLocal" : 2,
+  "visitante" : "Villarreal",
+  "fecha" : "07 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Celta",
+  "golesLocal" : 3,
+  "visitante" : "Sociedad",
+  "fecha" : "07 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Getafe",
+  "golesLocal" : 1,
+  "visitante" : "Ath Bilbao",
+  "fecha" : "07 abril 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Levante",
+  "golesLocal" : 2,
+  "visitante" : "Huesca",
+  "fecha" : "07 abril 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Valladolid",
+  "golesLocal" : 0,
+  "visitante" : "Sevilla",
+  "fecha" : "07 abril 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Ath Madrid",
+  "golesLocal" : 2,
+  "visitante" : "Celta",
+  "fecha" : "13 abril 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Espanol",
+  "golesLocal" : 2,
+  "visitante" : "Alaves",
+  "fecha" : "13 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Huesca",
+  "golesLocal" : 0,
+  "visitante" : "Barcelona",
+  "fecha" : "13 abril 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Sevilla",
+  "golesLocal" : 3,
+  "visitante" : "Betis",
+  "fecha" : "13 abril 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Ath Bilbao",
+  "golesLocal" : 3,
+  "visitante" : "Vallecano",
+  "fecha" : "14 abril 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Girona",
+  "golesLocal" : 0,
+  "visitante" : "Villarreal",
+  "fecha" : "14 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Sociedad",
+  "golesLocal" : 1,
+  "visitante" : "Eibar",
+  "fecha" : "14 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Valencia",
+  "golesLocal" : 3,
+  "visitante" : "Levante",
+  "fecha" : "14 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Valladolid",
+  "golesLocal" : 2,
+  "visitante" : "Getafe",
+  "fecha" : "14 abril 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Leganes",
+  "golesLocal" : 1,
+  "visitante" : "Real Madrid",
+  "fecha" : "15 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Alaves",
+  "golesLocal" : 2,
+  "visitante" : "Valladolid",
+  "fecha" : "19 abril 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Barcelona",
+  "golesLocal" : 2,
+  "visitante" : "Sociedad",
+  "fecha" : "20 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Celta",
+  "golesLocal" : 2,
+  "visitante" : "Girona",
+  "fecha" : "20 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Eibar",
+  "golesLocal" : 0,
+  "visitante" : "Ath Madrid",
+  "fecha" : "20 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Vallecano",
+  "golesLocal" : 0,
+  "visitante" : "Huesca",
+  "fecha" : "20 abril 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Betis",
+  "golesLocal" : 1,
+  "visitante" : "Valencia",
+  "fecha" : "21 abril 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Getafe",
+  "golesLocal" : 3,
+  "visitante" : "Sevilla",
+  "fecha" : "21 abril 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Levante",
+  "golesLocal" : 2,
+  "visitante" : "Espanol",
+  "fecha" : "21 abril 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Real Madrid",
+  "golesLocal" : 3,
+  "visitante" : "Ath Bilbao",
+  "fecha" : "21 abril 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Villarreal",
+  "golesLocal" : 2,
+  "visitante" : "Leganes",
+  "fecha" : "21 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Alaves",
+  "golesLocal" : 0,
+  "visitante" : "Barcelona",
+  "fecha" : "23 abril 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Huesca",
+  "golesLocal" : 2,
+  "visitante" : "Eibar",
+  "fecha" : "23 abril 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Valladolid",
+  "golesLocal" : 1,
+  "visitante" : "Girona",
+  "fecha" : "23 abril 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Ath Madrid",
+  "golesLocal" : 3,
+  "visitante" : "Valencia",
+  "fecha" : "24 abril 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Espanol",
+  "golesLocal" : 1,
+  "visitante" : "Celta",
+  "fecha" : "24 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Leganes",
+  "golesLocal" : 0,
+  "visitante" : "Ath Bilbao",
+  "fecha" : "24 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Levante",
+  "golesLocal" : 4,
+  "visitante" : "Betis",
+  "fecha" : "24 abril 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Getafe",
+  "golesLocal" : 0,
+  "visitante" : "Real Madrid",
+  "fecha" : "25 abril 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Sevilla",
+  "golesLocal" : 5,
+  "visitante" : "Vallecano",
+  "fecha" : "25 abril 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Sociedad",
+  "golesLocal" : 0,
+  "visitante" : "Villarreal",
+  "fecha" : "25 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Ath Bilbao",
+  "golesLocal" : 1,
+  "visitante" : "Alaves",
+  "fecha" : "27 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Ath Madrid",
+  "golesLocal" : 1,
+  "visitante" : "Valladolid",
+  "fecha" : "27 abril 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Barcelona",
+  "golesLocal" : 1,
+  "visitante" : "Levante",
+  "fecha" : "27 abril 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Leganes",
+  "golesLocal" : 0,
+  "visitante" : "Celta",
+  "fecha" : "27 abril 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Girona",
+  "golesLocal" : 1,
+  "visitante" : "Sevilla",
+  "fecha" : "28 abril 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Sociedad",
+  "golesLocal" : 2,
+  "visitante" : "Getafe",
+  "fecha" : "28 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Valencia",
+  "golesLocal" : 0,
+  "visitante" : "Eibar",
+  "fecha" : "28 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Vallecano",
+  "golesLocal" : 1,
+  "visitante" : "Real Madrid",
+  "fecha" : "28 abril 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Villarreal",
+  "golesLocal" : 1,
+  "visitante" : "Huesca",
+  "fecha" : "28 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Betis",
+  "golesLocal" : 1,
+  "visitante" : "Espanol",
+  "fecha" : "29 abril 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Sevilla",
+  "golesLocal" : 0,
+  "visitante" : "Leganes",
+  "fecha" : "03 mayo 2019",
+  "golesVisitante" : 3
+}, {
+  "home" : "Alaves",
+  "golesLocal" : 0,
+  "visitante" : "Sociedad",
+  "fecha" : "04 mayo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Celta",
+  "golesLocal" : 2,
+  "visitante" : "Barcelona",
+  "fecha" : "04 mayo 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Espanol",
+  "golesLocal" : 3,
+  "visitante" : "Ath Madrid",
+  "fecha" : "04 mayo 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Levante",
+  "golesLocal" : 4,
+  "visitante" : "Vallecano",
+  "fecha" : "04 mayo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Eibar",
+  "golesLocal" : 1,
+  "visitante" : "Betis",
+  "fecha" : "05 mayo 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Getafe",
+  "golesLocal" : 2,
+  "visitante" : "Girona",
+  "fecha" : "05 mayo 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Huesca",
+  "golesLocal" : 2,
+  "visitante" : "Valencia",
+  "fecha" : "05 mayo 2019",
+  "golesVisitante" : 6
+}, {
+  "home" : "Real Madrid",
+  "golesLocal" : 3,
+  "visitante" : "Villarreal",
+  "fecha" : "05 mayo 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Valladolid",
+  "golesLocal" : 1,
+  "visitante" : "Ath Bilbao",
+  "fecha" : "05 mayo 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Ath Bilbao",
+  "golesLocal" : 3,
+  "visitante" : "Celta",
+  "fecha" : "12 mayo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Ath Madrid",
+  "golesLocal" : 1,
+  "visitante" : "Sevilla",
+  "fecha" : "12 mayo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Barcelona",
+  "golesLocal" : 2,
+  "visitante" : "Getafe",
+  "fecha" : "12 mayo 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Betis",
+  "golesLocal" : 2,
+  "visitante" : "Huesca",
+  "fecha" : "12 mayo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Girona",
+  "golesLocal" : 1,
+  "visitante" : "Levante",
+  "fecha" : "12 mayo 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Leganes",
+  "golesLocal" : 0,
+  "visitante" : "Espanol",
+  "fecha" : "12 mayo 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Sociedad",
+  "golesLocal" : 3,
+  "visitante" : "Real Madrid",
+  "fecha" : "12 mayo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Valencia",
+  "golesLocal" : 3,
+  "visitante" : "Alaves",
+  "fecha" : "12 mayo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Vallecano",
+  "golesLocal" : 1,
+  "visitante" : "Valladolid",
+  "fecha" : "12 mayo 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Villarreal",
+  "golesLocal" : 1,
+  "visitante" : "Eibar",
+  "fecha" : "12 mayo 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Alaves",
+  "golesLocal" : 2,
+  "visitante" : "Girona",
+  "fecha" : "18 mayo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Celta",
+  "golesLocal" : 2,
+  "visitante" : "Vallecano",
+  "fecha" : "18 mayo 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Espanol",
+  "golesLocal" : 2,
+  "visitante" : "Sociedad",
+  "fecha" : "18 mayo 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Getafe",
+  "golesLocal" : 2,
+  "visitante" : "Villarreal",
+  "fecha" : "18 mayo 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Huesca",
+  "golesLocal" : 2,
+  "visitante" : "Leganes",
+  "fecha" : "18 mayo 2019",
+  "golesVisitante" : 1
+}, {
+  "home" : "Levante",
+  "golesLocal" : 2,
+  "visitante" : "Ath Madrid",
+  "fecha" : "18 mayo 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Sevilla",
+  "golesLocal" : 2,
+  "visitante" : "Ath Bilbao",
+  "fecha" : "18 mayo 2019",
+  "golesVisitante" : 0
+}, {
+  "home" : "Valladolid",
+  "golesLocal" : 0,
+  "visitante" : "Valencia",
+  "fecha" : "18 mayo 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Eibar",
+  "golesLocal" : 2,
+  "visitante" : "Barcelona",
+  "fecha" : "19 mayo 2019",
+  "golesVisitante" : 2
+}, {
+  "home" : "Real Madrid",
+  "golesLocal" : 0,
+  "visitante" : "Betis",
+  "fecha" : "19 mayo 2019",
+  "golesVisitante" : 2
+} ]
