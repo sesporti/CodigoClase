@@ -14,7 +14,7 @@ import app.tienda.valor.Serializado;
 public class TiendaConGenerico {
 
 	public static void main(String[] args) throws InstantiationException, IllegalAccessException {
-		GeneradorTurnos<Numero> generador = new GeneradorTurnos<>(Numero.class);//new Numero(48) {
+		GeneradorTurnos<Numero> generador = new GeneradorTurnos<>(Numero.class);//new Numero(48) ;
 
 //			@Override
 //			public Numero primero() {
